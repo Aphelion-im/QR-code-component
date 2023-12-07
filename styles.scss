@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+/*////////////////////////
+    Table of Contents
+    1. Global Styles
+    2. Typography
+    3. Layout
+        3.1 Reusables
+        3.2 Other
+    4. Areas
+        4.1 Header
+        4.2 Introduction
+        4.3 Work
+        4.4 Services
+        4.5 Contact
+        4.6 Footer
+    5. Media Queries
+////////////////////////*/
+
+/* Global styles */
+$white: hsl(0, 0%, 100%);
+$light-gray: hsl(212, 45%, 89%);
+$grayish-blue: hsl(220, 15%, 55%);
+$dark-blue: hsl(218, 44%, 22%);
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::selection {
+  color: #fff;
+  background-color: red;
+}
+
+html {
+  scroll-behavior: smooth;
+  min-height: 100vh;
+  font-size: 62.5%; // 10 pixels = 1rem
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.6rem; // 16px
+  background-color: $light-gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+main {
+  flex-grow: 1;
+}
+
+button,
+input,
+textarea,
+select {
+  font-family: inherit;
+}
+
+img {
+  width: 100%;
+}
+
+/* Remove the typical button styling on Mac
+For these buttons a background-color and color must be defined */
+button {
+  /* Remove background-color and color if required */
+  background-color: #bbb;
+  color: #222;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+button:hover {
+  filter: brightness(110%);
+}
+
+.box-shadow {
+  box-shadow: 0 5px 14px 0 rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 5px 14px 0 rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 5px 14px 0 rgba(0, 0, 0, 0.3);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.qr-card {
+  width: 90%;
+  border-radius: 8px;
+  padding: 1.5rem 1.5rem 4rem 1.5rem;
+  background-color: $white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4px;
+
+  img {
+    border-radius: 8px;
+    object-fit: contain;
+  }
+
+  p:first-of-type {
+    font-weight: 700;
+    color: $dark-blue;
+    width: 80%;
+    margin: 2rem 0;
+    font-size: 1.8rem;
+  }
+
+  p:last-of-type {
+    color: $grayish-blue;
+    width: 80%;
+  }
+}
+
+/********** Media Queries **********/
+@media screen and (min-width: 768px) {
+  .qr-card {
+    width: 300px;
+  }
+}
