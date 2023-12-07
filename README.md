@@ -24,7 +24,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [QR code Githubg repo](https://github.com/Aphelion-im/QR-code-component)
+- Solution URL: [QR code Github repo](https://github.com/Aphelion-im/QR-code-component)
 - Live Site URL: [QR code component live demo](https://aphelion-qr-code-component.netlify.app/)
 
 ## My process
@@ -48,7 +48,6 @@ I have no intentions to continue the development of this project.
 
 - [CSS box shadow generator](https://cssgenerator.org/box-shadow-css-generator.html) - Handy site to generate box shadows for your project.
 
-*
 ## Author
 
 - Frontend Mentor - [@Aphelion-im](https://www.frontendmentor.io/profile/Aphelion-im)
