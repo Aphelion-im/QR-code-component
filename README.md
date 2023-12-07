@@ -24,8 +24,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [QR code Githubg repo](https://github.com/Aphelion-im/QR-code-component)
+- Live Site URL: [QR code component live demo](https://aphelion-qr-code-component.netlify.app/)
 
 ## My process
 
