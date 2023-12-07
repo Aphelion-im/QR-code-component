@@ -47,6 +47,7 @@ I have no intentions to continue the development of this project.
 ### Useful resources
 
 - [CSS box shadow generator](https://cssgenerator.org/box-shadow-css-generator.html) - Handy site to generate box shadows for your project.
+- [HTML & CSS validator](https://validator.w3.org/nu/#textarea)
 
 ## Author
 
